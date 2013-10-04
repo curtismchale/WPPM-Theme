@@ -40,3 +40,8 @@
 </head>
 
 <body <?php body_class(); ?> >
+
+	<nav id="main-nav" class="nav">
+		<li><a href="<?php echo wppm_get_contact_page_link(); ?>">Contacts</a></li>
+	</nav><!-- /#main-nav -->
+

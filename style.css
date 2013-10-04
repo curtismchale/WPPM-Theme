@@ -1529,6 +1529,23 @@ p.lead {
   background-color: transparent;
   border: 0;
 }
+.nav {
+  padding: 0 10px;
+}
+.nav li {
+  list-style-type: none;
+}
+.nav a {
+  text-decoration: none;
+  color: #ecf0f1;
+  padding: 5px 10px;
+  display: inline-block;
+  font-size: 1.2em;
+}
+#main-nav {
+  background: #e74c3c;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
 /*!
  * Any extra CSS not in LESS can go here if you need it.
  * Put it below the comments.
